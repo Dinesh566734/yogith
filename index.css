@@ -46,10 +46,10 @@
     cursor: pointer;
     font-size: larger;
 }
-.Meghana{
+.meghana{
     transition: 0.5s;
 }
-.Meghana:hover{
+.meghana:hover{
     cursor: pointer;
     font-size: larger;
 }
