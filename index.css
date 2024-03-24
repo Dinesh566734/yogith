@@ -46,6 +46,13 @@
     cursor: pointer;
     font-size: larger;
 }
+.Meghana{
+    transition: 0.5s;
+}
+.Meghana:hover{
+    cursor: pointer;
+    font-size: larger;
+}
 .carousel-inner{
     width: 50% !important;  
     margin-left: auto;  
