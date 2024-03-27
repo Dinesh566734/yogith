@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background {
+    background-color: #262223;
+    background-size: cover;
+    height: 187v;
+    cursor: none;
+    
+}
+.circlecursor {
+    --circle-size: 40px;
+    position: fixed;
+    height: var(--circle-size);
+    width: var(--circle-size);
+    border: 1px solid #262223;
+    background-color: #DDC6B6;
+    border-radius: 100%;
+    top: calc(var(--circle-size) / 2 * -1);
+    left: calc(var(--circle-size) / 2 * -1);
+    pointer-events: none;
+    z-index: 10005;
+  }
+   
+#flip {
+    height:70px;
+    overflow:hidden;
+    width: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: BOLD;
+   
+  }
+.flipp{
+    margin-left: auto;
+    margin-right: auto;
+    animation: hfadein 2s ease-in-out;
+  }
+  #flip > div > div {
+    color:#DDC6B6;
+    height:45px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background:;
+  }
+  #flip div:first-child div {
+    background:;
+  }
+  #flip div:last-child div {
+    background:;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+.hidden {
+    opacity:0;
+  }
+.console-container {
+    font-family:"bebus neue",sans-serif ;
+    font-size:4em;
+    font-weight: bold;
+    text-align:center;
+    justify-content: center;
+    height:100px;
+    width:100%;
+    display:block;
+    color:#262223;
+    background-color: #DDC6B6;
+  }
+  .console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
+.unordered-list{
+    width: 30%;
+    animation: hfadein 3s ease-in;
+    cursor: none;
+}
+.dinesh{
+    transition: 0.5s;
+}
+.dinesh:hover{
+    cursor: none;
+    font-size: larger;
+}
+.yogi{
+    transition: 0.5s;
+}
+.yogi:hover{
+    cursor: none;    font-size: larger;
+}
+.abhi{
+    transition: 0.5s;
+}
+.abhi:hover{
+    cursor: none;    font-size: larger;
+}
+.sibani{
+    transition: 0.5s;
+}
+.sibani:hover{
+    cursor: none;    font-size: larger;
+}
+.thapasvi{
+    transition: 0.5s;
+}
+.thapasvi:hover{
+    cursor: none;    font-size: larger;
+}
+.carousel-inner{
+    width: 50% !important;  
+    margin-left: auto;  
+    margin-right: auto;
+    transition: 1s;
+    cursor: none;
+    }
+@keyframes hfadein{
+    0% { opacity: 0;
+            margin-right: 200px; }
+    100% { opacity: 1;
+        margin-right:0 ; }
+}
+@keyframes pfadein{
+    0% { opacity: 0;
+            margin-left: 200px; }
+    100% { opacity: 1;
+            margin-left: 0; }
+}
+.navi {
+    float: inline-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DDC6B6;
+    position:fixed;
+    top: 0;
+    width: 24%;
+    border-radius: 20px;
+    margin-top: 5px;
+    animation:hfadein 1s ease-in ;
+    cursor: none;
+  }
+  
+  .home {
+    float: left;
+    justify-content: center;
+  }
+  .img{
+    scale:10px;
+  }
+  .home a {
+    display: block;
+    color: #262223;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+    justify-content: center;
+  }
+  
+  .home a:hover {
+    color: #111;
+    font-size: larger;
+    cursor: none;
+  }
+  
+  
+
+.heading1 {
+    font-family: "bebus neue",sans-serif;
+    color: #DDC6B6;
+    text-align: center;
+    font-weight:bold;
+    float:none;
+    transition: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    animation: hfadein 3s ease-out;
+    font-size:70px
+}
+.heading1:hover{
+    font-size: 75px;
+}
+
+.para1 {
+    text-align: center;
+    font-size: 18px;
+    padding-left: 150px;
+    color: #DDC6B6;
+    animation: pfadein 3s ease-out ;
+}
+
+
+.img {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+}
+@keyframes boxfadeinleft {
+    0%{
+        opacity: 0;
+        margin-left: 100px;
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+@keyframes boxfadeinright {
+    0%{
+        opacity: 0;
+        margin-right: 100px;
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+.box1 {
+    margin: 30px;
+   
+    background-color: #DDC6B6;
+    padding: 7px;
+    border-radius: 10px;
+    width: 50%;
+    transition: box-shadow 1s ease-in-out;
+    transition: 1s;
+    animation: boxfadeinleft 1s ease-in-out ;
+    
+}
+
+
+.box1:hover {
+    box-shadow: 0px 0px 10px 5px #DDC6B6;
+    font-size:17px;
+   
+}
+.box2 {
+    margin: 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    background-color: #DDC6B6;
+    padding: 7px;
+    border-radius: 10px;
+    width: 50%;
+    transition: box-shadow 1s ease-out;
+    transition: 1s;
+    animation: boxfadeinright 1s ease-in-out ;
+
+}
+
+.box2:hover {
+    box-shadow: 0px 0px 10px 5px #DDC6B6;
+    font-size:17px;
+    
+}
+.img1 {
+    height: 200px;
+    width: 200px;
+    
+}
+
+
+.para2 {
+    margin: 20px;
+    color:#262223 ;
+    font-weight: 500;
+}
+
+.heading2 {
+    text-align: center;
+    font-family: "bebas leue",sans-serif;
+    color: #DDC6B6;
+    font-weight: bold;
+}
+
+.unordered-list {
+    list-style-type: circle;
+    color: #DDC6B6;
+    padding-left: 50px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.lastbox {
+    background-color: #DDC6B6;
+    width: 100vw;
+    height: 50px;
+   
+
+}
+
+.dsa {
+    color: #DDC6B6;
+}
+
+.insta {
+    height: 60px;
+    width: 60px;
+
+}
+
+.lastheading {
+    color: #DDC6B6;
+    text-align: center;
+    margin-top: 40px;
+
+}
